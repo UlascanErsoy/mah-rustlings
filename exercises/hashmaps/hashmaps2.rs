@@ -11,7 +11,6 @@
 //
 // Execute `rustlings hint hashmaps2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 use std::collections::HashMap;
 
@@ -48,6 +47,8 @@ mod tests {
         let mut basket = HashMap::<Fruit, u32>::new();
         basket.insert(Fruit::Apple, 4);
         basket.insert(Fruit::Mango, 2);
+        basket.insert(Fruit::Pineapple, 20);
+        basket.insert(Fruit::Banana, 25);
         basket.insert(Fruit::Lychee, 5);
 
         basket
